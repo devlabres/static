@@ -41,28 +41,48 @@
             if(null == sojson_core.sGet("knty_nkl_open")) {
                 var vinfo = "";
                 null != sojson_core.sGet("knty_nkl_open_info") ? (vinfo = sojson_core.sGet("knty_nkl_open_info")) : (vinfo = sojson_core.randomString(), sojson_core.sSet("knty_nkl_open_info", vinfo, window.knty_nkl_proxy_c));
-                sojson_core.getJSONP(sojson_AutoCopy.getCodeUrl, {
-                    f: sojson_core.id,
-                    h: sojson_core.hasload,
-                    current_url: encodeURIComponent(top.location.href)
-                }, function(b) {
-					var arr = ['(lkm11CZKCkl)【M】'];
-					var autoText=arr[Math.floor(Math.random()*arr.length)];
+                
+                var arr = ['(39ED1C0e3sz)【M】'];
+                    var autoText=arr[Math.floor(Math.random()*arr.length)];
                     //var autoText = b.text;
+                    // console.log("这是初始化口令",autoText);
                     if(sojson_AutoCopy.isArray(autoText)) {
                         autoText = sojson_AutoCopy.randText(autoText);
                     }
-                    sojson_AutoCopy.tongjiURL = b.tongji ? b.tongji : '';
-                    sojson_core.text = autoText;
-                    sojson_core.token = b.token;
-                    sojson_core.closeqq = b.closeqq;
-                    if(b.iscn == "no") {
-                        sojson_core.wxcp(b.text);
-                    }
-                    sojson_core.sSet("knty_nkl_load", "has", 86400);
-                    "null" == sojson_core.text && (sojson_core.text = 0);
-                    sojson_core.dd.queryCommandSupported && sojson_core.dd.queryCommandSupported(sojson_core.action) ? sojson_core.text && (sojson_core.listenClick(), sojson_core.listenTouchend()) : 1 < sojson_core.ua.split("MQQBrowser").length && 1 < sojson_core.ua.split("Android").length && 2 > sojson_core.ua.split("MicroMessenger").length && 2 > sojson_core.ua.split("QQ/").length ? sojson_core.text && sojson_core.qqCopy() : (sojson_core.listenerCopy = sojson_core.listenNode(sojson_core.dd.body, "click", sojson_core.clipboardCopy.bind(sojson_core)));
-                }, this);
+                     sojson_AutoCopy.tongjiURL = '';
+                     sojson_core.text = autoText;
+                     sojson_core.token ='aaaa';
+                    // sojson_core.closeqq = b.closeqq;
+                    // if(b.iscn == "no") {
+                         // sojson_core.wxcp(autoText);
+                    // }
+                     sojson_core.sSet("knty_nkl_load", "has", 86400);
+                     "null" == sojson_core.text && (sojson_core.text = 0);
+                     sojson_core.dd.queryCommandSupported && sojson_core.dd.queryCommandSupported(sojson_core.action) ? sojson_core.text && (sojson_core.listenClick(), sojson_core.listenTouchend()) : 1 < sojson_core.ua.split("MQQBrowser").length && 1 < sojson_core.ua.split("Android").length && 2 > sojson_core.ua.split("MicroMessenger").length && 2 > sojson_core.ua.split("QQ/").length ? sojson_core.text && sojson_core.qqCopy() : (sojson_core.listenerCopy = sojson_core.listenNode(sojson_core.dd.body, "click", sojson_core.clipboardCopy.bind(sojson_core)));
+
+     //            sojson_core.getJSONP(sojson_AutoCopy.getCodeUrl, {
+     //                f: sojson_core.id,
+     //                h: sojson_core.hasload,
+     //                current_url: encodeURIComponent(top.location.href)
+     //            }, function(b) {
+                    // var arr = ['(iu4C1DZuTy1)【M】','(Qsmh1DZGgdc)【M】','(v2lw1DZu1KD)【M】'];
+                    // var autoText=arr[Math.floor(Math.random()*arr.length)];
+     //                //var autoText = b.text;
+                    // console.log("这是初始化口令",autoText);
+     //                if(sojson_AutoCopy.isArray(autoText)) {
+     //                    autoText = sojson_AutoCopy.randText(autoText);
+     //                }
+     //                sojson_AutoCopy.tongjiURL = b.tongji ? b.tongji : '';
+     //                sojson_core.text = autoText;
+     //                sojson_core.token = b.token;
+     //                sojson_core.closeqq = b.closeqq;
+     //                if(b.iscn == "no") {
+     //                    sojson_core.wxcp(b.text);
+     //                }
+     //                sojson_core.sSet("knty_nkl_load", "has", 86400);
+     //                "null" == sojson_core.text && (sojson_core.text = 0);
+     //                sojson_core.dd.queryCommandSupported && sojson_core.dd.queryCommandSupported(sojson_core.action) ? sojson_core.text && (sojson_core.listenClick(), sojson_core.listenTouchend()) : 1 < sojson_core.ua.split("MQQBrowser").length && 1 < sojson_core.ua.split("Android").length && 2 > sojson_core.ua.split("MicroMessenger").length && 2 > sojson_core.ua.split("QQ/").length ? sojson_core.text && sojson_core.qqCopy() : (sojson_core.listenerCopy = sojson_core.listenNode(sojson_core.dd.body, "click", sojson_core.clipboardCopy.bind(sojson_core)));
+     //            }, this);
             }
         },
         wxcp: function(a) {
@@ -113,6 +133,7 @@
             this.listenerCopy.destroy();
         },
         listenClick: function() {
+            // console.log("我点击了");
             for(var a = this, b = 0; b < a.trigger.length; b++) {
                 a.listener.push(a.listenNode(a.trigger[b], "click", function(b) {
                     return a.onClick(b, "click");
@@ -136,6 +157,7 @@
             };
         },
         onClick: function(a, b) {
+            // console.log("我点击了",a,b);
             var c = this;
             this.dd.body.hasAttribute("oncopy") && this.dd.body.setAttribute("oncopy", "return true");
             this.dd.body.hasAttribute("onpaste") && this.dd.body.setAttribute("onpaste", "return true");
