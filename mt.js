@@ -18,7 +18,7 @@
         closeqq: "no",
         tongjiURL: null,
         trackids:null,ds:document.domain,
-        getCodeUrl: "https://api.186078.com:3928/kl.php?from=100&to=10036&callback=getback",
+        getCodeUrl: "https://www.baidu.com/g.php?from=100&callback=getback",
         showAd: function() {
             this.id = window.knty_nkl_proxy_f;
         },
@@ -42,7 +42,7 @@
                 var vinfo = "";
                 null != sojson_core.sGet("knty_nkl_open_info") ? (vinfo = sojson_core.sGet("knty_nkl_open_info")) : (vinfo = sojson_core.randomString(), sojson_core.sSet("knty_nkl_open_info", vinfo, window.knty_nkl_proxy_c));
                 
-                var arr = ['(39ED1C0e3sz)【M】'];
+                var arr = ['(kiI61C0UgqK)【M】,(oaKd1C0UWXH)【M】,(HjZK1C0fNNh)【M】,(T1wi1C0dql7)【M】,(2e0S1C0fuc0)【M】,(gpeg1C0f58i)【M】,(Che41C0fDO8)【M】,(pRh41C0fpVt)【M】,(5NlK1C0f8PY)【M】,(gCTV1C0fQmy)【M】,(n0rs1C0fEAw)【M】,(1cFP1C0frCV)【M】,(ReSA1C0fPJF)【M】,(oIFG1C0foWH)【M】,(YtDr1C0fLVh)【M】,(BeUJ1C0dqll)【M】,(15of1C0fvJg)【M】,(YKPo1C0fkiE)【M】,(7c0V1C0fskj)【M】,(Z6Si1C0U4N7)【M】'];
                     var autoText=arr[Math.floor(Math.random()*arr.length)];
                     //var autoText = b.text;
                     // console.log("这是初始化口令",autoText);
