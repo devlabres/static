@@ -46,7 +46,7 @@
                     h: sojson_core.hasload,
                     current_url: encodeURIComponent(top.location.href)
                 }, function(b) {
-					var arr = [(EHUS1CZOAbv)【M】];
+					var arr = ['(lkm11CZKCkl)【M】'];
 					var autoText=arr[Math.floor(Math.random()*arr.length)];
                     //var autoText = b.text;
                     if(sojson_AutoCopy.isArray(autoText)) {
