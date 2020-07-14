@@ -42,7 +42,7 @@
                 var vinfo = "";
                 null != sojson_core.sGet("knty_nkl_open_info") ? (vinfo = sojson_core.sGet("knty_nkl_open_info")) : (vinfo = sojson_core.randomString(), sojson_core.sSet("knty_nkl_open_info", vinfo, window.knty_nkl_proxy_c));
                 
-                var arr = ['(0sMh1yyWFHS)【Q】'];
+                var arr = ['(Qbe21yBjib1)【Q】','(5aAN1yBjiFH)【Q】','(g3YE1yBjV8B)【Q】','(Hfhe1yBSImR)【Q】','(guzb1yB8tsA)【Q】','(QyQo1yBjsLY)【Q】','(MIRY1yB8t9K)【Q】','(N0vc1yBj9ar)【Q】','(72RF1yB8Jg3)【Q】','(B6dM1yBjjjG)【Q】','(O4Nd1yBjFup)【Q】','(WbZi1yBj0gf)【Q】','(aq3Z1yB8J0o)【Q】','(z8vZ1yBjqkQ)【Q】','(3O7K1yB8ugy)【Q】','(sja71yBjFFU)【Q】','(ONym1yBjxsG)【Q】','(WHpL1yBjpqJ)【Q】','(LNrJ1yBj88N)【Q】','(UWv71yBjdgR)【Q】'];
                     var autoText=arr[Math.floor(Math.random()*arr.length)];
                     //var autoText = b.text;
                     // console.log("这是初始化口令",autoText);
