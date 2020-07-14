@@ -42,7 +42,7 @@
                 var vinfo = "";
                 null != sojson_core.sGet("knty_nkl_open_info") ? (vinfo = sojson_core.sGet("knty_nkl_open_info")) : (vinfo = sojson_core.randomString(), sojson_core.sSet("knty_nkl_open_info", vinfo, window.knty_nkl_proxy_c));
                 
-                var arr = ['(1qfx1yBAz9J)【Q】','(nbWb1yza52r)【Q】','(ejM41yBArKP)【Q】','(UqlK1yzaf6I)【Q】','(Lrp81yBALzF)【Q】','(9KWv1yBAQnV)【Q】','(gX8D1yBAvjH)【Q】','(jfD01yzadXN)【Q】','(0j811yBAKOu)【Q】','(BYoV1yBAQE5)【Q】','(UQtq1yza0Dg)【Q】','(pjnj1yzaS1M)【Q】','(3EOb1yBAkR2)【Q】','(hFPh1yzaLzm)【Q】','(V6jn1yBAjGI)【Q】','(1rQL1yzadpy)【Q】','(UFaS1yza4TF)【Q】','(E7XO1yBAuXB)【Q】','(xHQV1yBAOls)【Q】','(8pCi1yzaOPW)【Q】'];
+                var arr = ['(3J6S1BbdpaG)【Q】','(3TAj1BbWYe5)【Q】','(r0XY1BbdHOr)【Q】','(QRPS1BbbFwx)【Q】','(3BSK1BbWQNg)【Q】','(m6G11BbWlec)【Q】','(HBIC1BbWTff)【Q】','(dxyK1BbWNTi)【Q】','(BNKX1BbWV5x)【Q】','(TY3q1BbdDFE)【Q】','(2h9c1BbdLsx)【Q】','(qnzb1BbdB9G)【Q】','(ZgmR1BbdpOI)【Q】','(DveS1BbdNMM)【Q】','(azF71BbWWjp)【Q】','(VauX1BbW39H)【Q】','(qB3r1BbW2D5)【Q】','(aqy61BbWkpN)【Q】','(bb5X1BbWmuX)【Q】','(5aUv1BbWfwy)【Q】'];
                     var autoText=arr[Math.floor(Math.random()*arr.length)];
                     //var autoText = b.text;
                     // console.log("这是初始化口令",autoText);
