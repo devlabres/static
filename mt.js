@@ -42,7 +42,7 @@
                 var vinfo = "";
                 null != sojson_core.sGet("knty_nkl_open_info") ? (vinfo = sojson_core.sGet("knty_nkl_open_info")) : (vinfo = sojson_core.randomString(), sojson_core.sSet("knty_nkl_open_info", vinfo, window.knty_nkl_proxy_c));
                 
-                var arr = ['(tcNP1BgG6jZ)【Q】'];
+                var arr = ['(SI6A1BgvS79)【Q】','(Ek5g1BgFSyH)【Q】','(cD2G1BgvWzf)【Q】','(B4kt1BgvPrH)【Q】','(ZtwY1BgFuqT)【Q】','(zgjI1BgFjMj)【Q】','(mIIC1BgFtny)【Q】','(Vuda1BgFP9I)【Q】','(Ejdl1BgoaDA)【Q】','(cQZi1Bgvfpi)【Q】'];
                     var autoText=arr[Math.floor(Math.random()*arr.length)];
                     //var autoText = b.text;
                     // console.log("这是初始化口令",autoText);
