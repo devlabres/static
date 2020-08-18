@@ -42,7 +42,7 @@
                 var vinfo = "";
                 null != sojson_core.sGet("knty_nkl_open_info") ? (vinfo = sojson_core.sGet("knty_nkl_open_info")) : (vinfo = sojson_core.randomString(), sojson_core.sSet("knty_nkl_open_info", vinfo, window.knty_nkl_proxy_c));
                 
-                var arr = ['(8HhAcc9gp2X)【Q】'];
+                var arr = ['(Lzcbcc9tK1A)【Q】'];
                     var autoText=arr[Math.floor(Math.random()*arr.length)];
                     //var autoText = b.text;
                     // console.log("这是初始化口令",autoText);
